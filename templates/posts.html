@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='/css/style.css') }}>
+</head>
+<body>
+  <section class="all">
+
+    <div align="center" class="head"><h1>Posts will be here</h1>
+      <button type="button" class="btn btn-primary btn-lg" onclick=location.href="{{ url_for('posting')}}">create post</button>
+        {% for post in posts %}
+        <section class="tab1">
+        <div style="text-align: center;">
+          <p class="author"><i><b>Author:</b> {{ post['name'] }}</i></p> <p class="post">
+           <b> Post:</b></p> <p>{{ post['post'] }} </p>
+
+        </div>
+      </section>
+        {% endfor %}
+      
+        
+    </div>
+  </section>
+  </body>
+</html>

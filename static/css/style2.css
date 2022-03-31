@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    /*{{ url_for('static', filename='images/Fire\ and\ ice\ ps.png'}}*/
+    background-color: #267365;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+
+
+.top h1{
+    color: rgb(255, 255, 255);
+    font-size: 10ch;
+    
+    
+    padding-top: 9%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 9%;
+}
+
+.top p{
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #E8B558;
+    font-size: 30px;  
+    border-radius: 30px;
+    
+    position: absolute;
+    margin-left: 300px;
+    
+    text-align: left;
+    
+}
+
+.mid{
+    background: #F23030;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.mid h2{
+    color: rgb(255, 255, 255);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.mid p{
+    color: rgb(255, 255, 255);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
+.mid b{
+    font-size: 4ch;
+}
+
+.myart{
+    background: #F28705;
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+.myart h2{
+    color: rgb(255, 255, 255);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}    
+.row{
+    padding-left: 25em;
+    padding-right: 25em;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art-col{
+    width: 30em;
+    height: 15em;
+    background: #E8B558;
+    flex-basis: auto;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.art-col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+ }
+
+
+ .about{
+    background: #F29F05;
+    padding-bottom: 6em;
+    padding-top: 7em;
+}
+
+.about h2{
+    color: rgb(0, 0, 0);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.about p{
+    color: rgb(0, 0, 0);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
+.about b{
+    color: #267365;
+}
+
+
+.contact{
+    background: #F2CB05;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+
+.contact h2{
+    color: rgb(0, 0, 0);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.contact p{
+    color: rgb(0, 0, 0);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
+

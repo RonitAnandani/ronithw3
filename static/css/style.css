@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Poppins', sans-serif;
+    
+}
+.all{
+    background-color: blue;
+    height: 100%;
+}
+
+.head{
+    
+    color: aliceblue;
+}
+.head h1{
+    font-size: 60px;
+}
+.author{
+    margin: 20px;
+    padding: 10px;
+    margin-left: 65%;
+    color: rgb(0, 0, 0);
+    border:px;
+    background-color: burlywood;
+   width: fit-content;
+   height: fit-content;
+   border-radius: 30px;
+   align-items: center;
+}
+.tab1{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1px;
+    margin-top: 30px;
+    margin: 30px;
+    padding-bottom: 1px;
+    background-color: coral;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+.post{
+    align-items: left;
+    text-align: left;
+    margin-right: 60px;
+    padding-right: 60px;
+}
